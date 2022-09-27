@@ -52,10 +52,6 @@
   box-shadow: 2px 1px 5px #999494;
 }
 
-#viewmore {
-  display: none;
-}
-
 .viewbutton {
   background: transparent;
   font-style: inherit;
