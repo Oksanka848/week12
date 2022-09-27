@@ -1,0 +1,64 @@
+.about-section {
+  display: grid;
+  grid-template-rows: 13% 62% 1fr;
+  grid-template-columns: 2% 20% 60%;
+  align-items: center;
+  grid-row-gap: 1%;
+  grid-column-gap: 3%;
+  margin-bottom: 3%;
+  background: url(/assets/img/about/clouds.svg) no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-color: linear-gradient(#447695, #65b7ce);
+}
+
+.about__image {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: center;
+  align-self: start;
+  min-width: 105%;
+  min-height: 62%;
+}
+
+.about__title {
+  line-height: 2em;
+  font-family: "SanghaKali", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #bfe6ef;
+  justify-self: center;
+  padding: 30px;
+}
+
+.about__text {
+  grid-column: 3;
+  grid-row: 2;
+  font-style: italic;
+  color: rgb(191, 230, 239);
+  text-align: justify;
+  text-indent: 5%;
+  align-self: baseline;
+}
+
+.about__image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(215, 237, 250, 0.5);
+  border-radius: 10px;
+  border: 5px solid #fff;
+  box-shadow: 2px 1px 5px #999494;
+}
+
+#viewmore {
+  display: none;
+}
+
+.viewbutton {
+  background: transparent;
+  font-style: inherit;
+  color: rgb(191, 230, 239);
+  border: hidden;
+}
