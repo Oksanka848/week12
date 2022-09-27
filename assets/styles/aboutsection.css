@@ -1,4 +1,4 @@
-.about-section {
+.about-main {
   display: grid;
   grid-template-rows: 13% 62% 1fr;
   grid-template-columns: 2% 20% 60%;
@@ -21,7 +21,9 @@
   min-height: 62%;
 }
 
-.about__title {
+.about-main__title {
+  grid-column: span 3;
+  grid-row: 1;
   line-height: 2em;
   font-family: "SanghaKali", sans-serif;
   font-size: 3em;

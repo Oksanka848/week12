@@ -184,7 +184,6 @@ li a:hover {
 }
 .services__button_right:hover {
   box-shadow: 7px 7px #65b7ce;
-
 }
 
 .services__button_left {
@@ -294,6 +293,7 @@ ul a:hover {
   text-decoration: none;
   color: rgb(191, 230, 239);
 }
+
 .servises__description {
   color: #bfe6ef;
   padding: 30px;
@@ -301,7 +301,9 @@ ul a:hover {
   padding-bottom: 80px;
 }
 
-footer { margin-bottom: 150px;}
+footer {
+  margin-bottom: 150px;
+}
 
 @media screen and (max-width: 779px) {
   body {
@@ -397,6 +399,7 @@ footer { margin-bottom: 150px;}
     margin-bottom: 5px;
   }
 
-  footer { margin-bottom: 100px;}
-
+  footer {
+    margin-bottom: 100px;
+  }
 }
