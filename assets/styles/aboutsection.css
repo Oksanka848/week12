@@ -9,7 +9,6 @@
   background: url(/assets/img/about/clouds.svg) no-repeat;
   width: 100%;
   background-size: cover;
-  background-color: linear-gradient(#447695, #65b7ce);
 }
 
 .about__image {
